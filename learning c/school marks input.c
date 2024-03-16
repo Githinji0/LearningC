@@ -9,7 +9,7 @@ int main() {
 
     // Input student details
     printf("Enter student name: ");
-    fgets(name, sizeof(name), stdin);
+    fgets(name, 50, stdin);
 
     printf("Enter marks in English: ");
     scanf("%d", &english);
